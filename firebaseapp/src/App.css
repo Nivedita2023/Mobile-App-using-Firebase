@@ -4,18 +4,19 @@ body {
   font-family: 'Rubik', sans-serif;
   width:600px;
   margin:auto;
+  user-select: none; 
 }
 
 img {
-  height:300px;
-  width:300px;
+  height:100px;
+  width:100px;
   margin:auto;
   border-radius:30px;
 }
 
 button {
   background-color:blue;
-  padding:15px 50px;
+  padding:15px 133px;
   color:whitesmoke;
   border:none;
   border-radius:5px;
@@ -25,11 +26,11 @@ button {
 }
 
 input { 
-  padding:17px 50px;
+  padding:17px 70px;
   border-radius:5px;
   border:0;
   font-size:large;
-  margin-top:20px;
+  margin-top:10px;
   text-align:center;
   background-color: #DCE1EB;
 }
@@ -45,18 +46,32 @@ ul {
   display:flex;
   flex-wrap: wrap;
   gap:10px;
+  max-width:350px;
+  margin:auto;
+  padding:5px 20px;
 }
 
 ul li {
-  background-color:blanchedalmond;
-  color:black;
+  background-color:whitesmoke;
+  color:blue;
   padding:10px 20px;
   border-radius:10px;
   font-size:large;
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+  flex-grow:1; 
 }
 
+button:hover{
+  background-color: cornflowerblue;
+  cursor: pointer;
+}
 
+li:hover {
+  background-color:rgba(0, 0, 255, 0.47);
+  color:white;
+  cursor:pointer;
+}
 
-
-
+p {
+  color:#021a4b69;
+}
